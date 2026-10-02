@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Digital Innovation Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span>DIH</span> Digital Innovation Hub</a>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="courses.html">Courses</a><a class="active" href="contact.html">Contact</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="page-banner"><div class="container"><p class="eyebrow">STUDENT SUPPORT</p><h1>Contact the Department</h1><p>Have a question? Send an enquiry and the department can get back to you.</p></div></section>
+
+<section class="section">
+<div class="container contact-grid">
+  <div class="contact-info">
+    <p class="eyebrow">GET IN TOUCH</p>
+    <h2>Let's start a conversation.</h2>
+    <p>Use the enquiry form to ask about courses, practical learning, department activities or general information.</p>
+    <div class="info-item"><strong>Department</strong><span>Information Technology</span></div>
+    <div class="info-item"><strong>Email</strong><span>info@digitalinnovationhub.example</span></div>
+    <div class="info-item"><strong>Office Hours</strong><span>Monday – Friday, 8:00 AM – 5:00 PM</span></div>
+  </div>
+
+  <form class="enquiry-form" action="#" method="post" onsubmit="event.preventDefault(); document.getElementById('success').hidden=false;">
+    <label for="name">Full Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+    <label for="email">Email Address</label>
+    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" placeholder="Write your enquiry here..." required></textarea>
+    <button class="btn primary" type="submit">Send Enquiry</button>
+    <p id="success" class="success" hidden>Thank you! Your enquiry has been recorded for this demonstration.</p>
+  </form>
+</div>
+</section>
+</main>
+
+<footer class="footer"><div class="container footer-grid"><div><strong>Digital Innovation Hub</strong><p>Department of Information Technology</p></div><div><p>© 2026 Digital Innovation Hub</p></div></div></footer>
+</body>
+</html>
